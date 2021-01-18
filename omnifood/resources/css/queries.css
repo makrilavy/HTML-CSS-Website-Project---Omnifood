@@ -1,0 +1,84 @@
+/* For small phones under or equal to 480 px screen size */
+@media only screen and (max-width: 480px) {
+
+}
+
+/* For small phones to small tablets under or equal to 767 px screen size */
+@media only screen and (max-width: 767px) {
+    
+}
+
+/* For small tablets to big tablets under or equal to 1023 px screen size */
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+    section {
+        padding: 60px 0;
+    }
+    .long-copy {
+        width: 80%;
+        margin-left:10%;
+    }
+    .buttonApp img {
+        height:45px;
+        width:auto;
+        margin-left:10px;
+    }
+    .buttonApp:link, .buttonApp:visited {
+        display: block;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        text-align:center;
+        float:left;
+        margin-right:15px;
+    }
+    .buttonApp1 img {
+        height:45px;
+        width:auto;
+        text-align:center;
+    }
+    .buttonApp1:link, .buttonApp1:visited {
+        display: block;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        text-align:center;
+        float:left;
+    }
+    .step-list {
+        margin-top: 25px;
+    }
+    .icon-small {
+        width:10px;
+        margin-right:13px;
+    }
+    .omnifood-twitter-links:link,  .omnifood-twitter-links:visited{
+        font-size: 18px;
+        -webkit-text-decoration-line: none;
+        text-decoration-line: none;
+        color: #e67e22; 
+        border-bottom: 1px solid #e67e22;
+        -webkit-transition: border_bottom 0.2s color 0.2s;
+        transition: border_bottom 0.2s color 0.2s;
+    }
+    .omnifood-twitter-links:active,  .omnifood-twitter-links:hover{
+        font-size: 18px;
+        -webkit-text-decoration-line: none;
+        text-decoration-line: none;
+        color: #2937e0; 
+        border-bottom: 1px solid #2937e0;
+        -webkit-transition: border_bottom 0.2s color 0.2s;
+        transition: border_bottom 0.2s color 0.2s;
+    }
+}
+
+/* For big tablets to 1200 px screen size */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row {
+        padding: 0 2%;
+    }
+}
